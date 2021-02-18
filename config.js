@@ -6,7 +6,7 @@ const config = {
     trailingSlash: false,
   },
   header: {
-    logo: '/content/img/Trusted white.png',
+    logo: './content/img/Trusted white.png',
     logoLink: 'https://trusted.plus/id/',
     title:
       "",
