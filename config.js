@@ -38,7 +38,7 @@ const config = {
   },
   sidebar: {
     forcedNavOrder: [
-      // '/introduction', // add trailing slash if enabled above
+      '/1.10.234', // add trailing slash if enabled above
       // '/codeblock',
     ],
     collapsedNav: [
