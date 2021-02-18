@@ -42,7 +42,7 @@ const config = {
       // '/codeblock',
     ],
     collapsedNav: [
-      // '/codeblock', // add trailing slash if enabled above
+      '/1.10.234', // add trailing slash if enabled above
     ],
     links: [{ text: 'Trusted.Plus', link: 'https://trusted.plus/id/' }],
     frontline: false,
