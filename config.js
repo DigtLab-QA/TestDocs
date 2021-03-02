@@ -6,7 +6,7 @@ const config = {
     trailingSlash: false,
   },
   header: {
-    logo: 'https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/brand.svg',
+    logo: './content/images/TrustedID_white.png',
     logoLink: 'https://trusted.plus/id/',
     title: '',
     githubUrl: '',
