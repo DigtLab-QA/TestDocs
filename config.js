@@ -6,7 +6,7 @@ const config = {
     trailingSlash: false,
   },
   header: {
-    logo: 'https://raw.githubusercontent.com/DigtLab-QA/TestDocs/main/content/images/TrustedID_white.png',
+    logo: 'https://raw.githubusercontent.com/DigtLab-QA/TestDocs/main/src/images/TrustedID_white.png',
     logoLink: 'https://trusted.plus/id/',
     title: '',
     githubUrl: '',
