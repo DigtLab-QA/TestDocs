@@ -23,6 +23,13 @@ const plugins = [
     resolve: 'gatsby-plugin-mdx',
     options: {
       gatsbyRemarkPlugins: [
+         {
+          resolve: `gatsby-remark-plantuml-lite`,
+          options: {
+              
+              imageType: `svg`
+            }
+        },
         {
           resolve: "gatsby-remark-images",
           options: {
