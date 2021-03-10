@@ -43,7 +43,9 @@ const config = {
       '4-applications',
       '5-providers',
       '6-permissions',
-      '7-groups'
+      '7-groups',
+      '1a-about',
+      '1b-account'
     ],
     collapsedNav: [],
     links: [{ text: 'Trusted.Plus', link: 'https://trusted.plus/id/' }],
