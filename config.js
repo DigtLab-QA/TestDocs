@@ -40,7 +40,10 @@ const config = {
       '1-about',
       '2-authorization',
       '3-profile',
-      '4-applications'
+      '4-applications',
+      '5-providers',
+      '6-permissions',
+      '7-groups'
     ],
     collapsedNav: [],
     links: [{ text: 'Trusted.Plus', link: 'https://trusted.plus/id/' }],

@@ -27,7 +27,7 @@ const plugins = [
           resolve: `gatsby-remark-plantuml-lite`,
           options: {
               
-              imageType: `svg`
+              imageType: `png`
             }
         },
         {
