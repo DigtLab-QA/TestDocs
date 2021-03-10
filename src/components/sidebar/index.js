@@ -100,7 +100,6 @@ const SidebarLayout = ({ location }) => (
               fields {
                 slug
                 title
-                sort
               }
             }
           }
