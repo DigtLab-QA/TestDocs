@@ -34,13 +34,3 @@ sort: "1"
 ![groups-users.png](./images/groups-users.png "Форма со списком пользователей группы")
 
 В верхней части окна расположена поисковая строка для фильтрации пользователей по маске. В нижней части - кнопка поиска пользователей для добавления.
-
-```plantuml
-@startuml
-Alice -> Bob: Authentication Request
-Bob --> Alice: Authentication Response
-
-Alice -> Bob: Another authentication Request
-Alice <-- Bob: Another authentication Response
-@enduml
-```
