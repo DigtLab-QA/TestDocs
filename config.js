@@ -36,17 +36,7 @@ const config = {
     },
   },
   sidebar: {
-    forcedNavOrder: [
-      '1-about',
-      '2-authorization',
-      '3-profile',
-      '4-applications',
-      '5-providers',
-      '6-permissions',
-      '7-groups',
-      '1a-about',
-      '1b-account'
-    ],
+    forcedNavOrder: [],
     collapsedNav: [],
     links: [{ text: 'Trusted.Plus', link: 'https://trusted.plus/id/' }],
     frontline: false,
