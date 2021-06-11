@@ -28,11 +28,11 @@ const config = {
 		  </li>`,
     links: [{ text: '', link: '' }],
     search: {
-      enabled: false,
-      indexName: '',
-      algoliaAppId: process.env.GATSBY_ALGOLIA_APP_ID,
-      algoliaSearchKey: process.env.GATSBY_ALGOLIA_SEARCH_KEY,
-      algoliaAdminKey: process.env.ALGOLIA_ADMIN_KEY,
+      enabled: true,
+      indexName: 'Trusted',
+      algoliaAppId: "YSUPZ6O4QF",
+      algoliaSearchKey: "a9c5865fedb6fa111eba7be1fffb6ac8",
+      algoliaAdminKey: "856f676628f9f739513bb0757591b2cc",
     },
   },
   sidebar: {
@@ -43,7 +43,7 @@ const config = {
       '4-applications'
 
     ],
-    collapsedNav: [],
+    collapsedNav: [/1.2.026],
     links: [{ text: 'Trusted.Plus', link: 'https://trusted.plus/id/' }],
     frontline: false,
     ignoreIndex: true,
