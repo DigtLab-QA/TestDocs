@@ -43,7 +43,7 @@ const config = {
       '4-applications'
 
     ],
-    collapsedNav: [/1.2.026],
+    collapsedNav: ["/1.2.026"],
     links: [{ text: 'Trusted.Plus', link: 'https://trusted.plus/id/' }],
     frontline: false,
     ignoreIndex: true,
