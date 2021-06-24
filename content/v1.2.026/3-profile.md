@@ -1,6 +1,6 @@
 ---
 title: "Профиль пользователя"
-metaTitle: "Syntax Highlighting is the meta title tag for this page"
+metaTitle: "Trusted.ID"
 metaDescription: "This is the meta description for this page"
 ---
 
