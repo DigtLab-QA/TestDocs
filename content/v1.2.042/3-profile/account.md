@@ -23,5 +23,4 @@ sort: "1"
     
 ![profile-info.png](./images/profile-info.png "Кнопка информации о профиле") 
 
-![profile-exit](./images/profile-exit.png "Всплывающее окно с информацией о пользователе и кнопками перехода в профиль и выход")                	 
-	
+![profile-exit](./images/profile-exit.png "Всплывающее окно с информацией о пользователе и кнопками перехода в профиль и выход")                
