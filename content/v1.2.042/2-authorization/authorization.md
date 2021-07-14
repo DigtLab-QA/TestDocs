@@ -55,7 +55,7 @@ sort: "2"
 ![authorization-social-networking-add.png](./images/authorization-social-networking-add.png "Ввод идентификатора для привязки социальной сети к аккаунту") ![authorization-social-networking-add-passwd.png](./images/authorization-widget2.png "Ввод пароля для привязки социальной сети к аккаунту")
 
 Если у пользователя нет профиля в сервисе, в форме выбора действий можно создать аккаунт, нажав кнопку **Создать аккаунт**. 
-Происходит переход на виджет регистрации. Процесс регистрации описан в разделе [**Регистрация нового пользователя**](../2-authorization/registration.md). 
+Происходит переход на виджет регистрации. Процесс регистрации описан в разделе [**Регистрация нового пользователя**](https://docs.trusted.plus/v1.2.042/2-authorization/registration). 
 
 ## Смена профиля
 
