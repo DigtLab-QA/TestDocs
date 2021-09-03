@@ -22,7 +22,7 @@ sort: "03"
 1. Зарегистрируйтесь и/или авторизуйтесь на сервисе (далее рассматривается сервис [TRUSTED.PLUS](https://id.trusted.plus)).
    
 2. Создайте приложение.  
-   [Инструкция по созданию приложения.](https://docs.trusted.ru/v1.3/8-instructions/create-app)
+   [Инструкция по созданию приложения.](https://docs.trusted.plus/v1.3/8-instructions/create-app)
    
 ##  Шаг 1. Создание провайдера типа LDAP
 
