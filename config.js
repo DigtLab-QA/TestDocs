@@ -37,7 +37,8 @@ const config = {
   },
   sidebar: {
     forcedNavOrder: [
-      "v1.2",
+      "v1.2.026",
+      "v1.2.042",
       "v1.3"
     ],
     collapsedNav: ["/v1.2.026","/v1.2.042","/v1.3"],
