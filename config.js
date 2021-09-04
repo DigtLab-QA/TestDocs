@@ -1,13 +1,13 @@
 const config = {
   gatsby: {
     pathPrefix: '/',
-    siteUrl: 'https://trusted.plus/id/',
+    siteUrl: 'https://trusted.plus',
     gaTrackingId: null,
     trailingSlash: false,
   },
   header: {
     logo: 'https://raw.githubusercontent.com/DigtLab-QA/TestDocs/main/src/images/TrustedID_white.png',
-    logoLink: 'https://trusted.plus/id/',
+    logoLink: 'https://trusted.plus',
     title: '',
     githubUrl: '',
     helpUrl: '',
@@ -37,18 +37,14 @@ const config = {
   },
   sidebar: {
     forcedNavOrder: [
-      '1-about',
-      '2-authorization',
-      '3-profile',
-      '4-applications'
-
+      
     ],
-    collapsedNav: ["/v1.2.026"],
-    links: [{ text: 'Trusted.Plus', link: 'https://trusted.plus/id/' }],
+    collapsedNav: ["/v1.2.026","/v1.2.042","/v1.3"],
+    links: [{ text: 'Trusted.Plus', link: 'https://trusted.plus' }],
     frontline: false,
     ignoreIndex: true,
     title:
-      "<a href='https://trusted.plus/id/'>Trusted.Plus </a>",
+      "<a href='https://trusted.plus'>Trusted.Plus </a>",
   },
   siteMetadata: {
     title: 'GitDocs Trusted.Plus',
