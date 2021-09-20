@@ -126,7 +126,7 @@ const Tree = ({ edges }) => {
     if (config.sidebar.collapsedNav && config.sidebar.collapsedNav.includes(item.url)) {
       defaultCollapsed[item.url] = true;
     } else {
-      defaultCollapsed[item.url] = false;
+      defaultCollapsed[item.url] = true;
     }
   });
   const [collapsed, setCollapsed] = useState(defaultCollapsed);
