@@ -37,10 +37,10 @@ const config = {
   },
   sidebar: {
     forcedNavOrder: [
-      '1-about',
-      '2-authorization',
-      '3-profile',
-      '4-applications'
+      '01-v1.2.026',
+      '02-v1.2.042',
+      '03-v1.3'
+     
       
     ],
     collapsedNav: [],
