@@ -95,4 +95,4 @@ sort: "01"
 
 **ИНСТРУКЦИИ ПО ТЕМЕ:**
 
-1. [Инструкция по созданию приложения.](https://docs.trusted.plus/v1.3/8-instructions/create-app)  
+1. [Инструкция по созданию приложения.](https://docs.trusted.plus/03-v1.3/8-instructions/create-app)  
