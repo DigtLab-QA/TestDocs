@@ -1,14 +1,14 @@
 ---
 slug: "/post8"
-title: "Настройка авторизации через FACEBOOK"
+title: "Настройка авторизации через Facebook"
 sort: "08"
 ---
 
-## Настройка провайдера для авторизации через facebook
+## Настройка провайдера для авторизации через Facebook
 
 1. Зарегистрируйтесь и/или авторизуйтесь на сервисе, где развернута система Trusted Net (далее рассматривается сервис [TRUSTED.PLUS](https://id.trusted.plus)).  
 2. Создайте провайдер типа OAuth2.0.   
-3. Зарегистрируйтесь/авторизуйтесь в [facebook](https://www.facebook.com/).  
+3. Зарегистрируйтесь/авторизуйтесь в [Facebook](https://www.facebook.com/).  
 4. Перейдите на страницу добавления приложения https://developers.facebook.com.   
 5. Авторизуйтесь как разработчик.  
 6. Выберите тип приложения (Потребительское) и нажмите **Далее**.  
@@ -45,7 +45,6 @@ https://id.trusted.plus/idp/sso/authorize?provider_id=88b3361b2f480ce2&auth_type
 
 12. В поле **URL-адрес политики конфиденциальности** введите адрес домена. В поле **Удаление данных пользователей** введите адрес к инструкции по удалению данных.  Сохраните изменения.
 
-   
       ![fb-app18](./images/fb-app18.jpg "Основные настройки приложения")  
  
 11. Cкопируйте **ID приложения** и **Секрет приложения**.
@@ -58,8 +57,7 @@ https://id.trusted.plus/idp/sso/authorize?provider_id=88b3361b2f480ce2&auth_type
     
     ![fb-app1](./images/fb-app1.jpg "Настройки авторизации провайдера")  
 
-16. В настройках провайдера установите:  
-    В настройках провайдера установите:
+16. В настройках провайдера установите:   
       - user_authorization_uri -https://www.facebook.com/dialog/oauth  
       - scope - email  
       - access_token_uri - https://graph.facebook.com/oauth/access_token  
@@ -74,13 +72,13 @@ https://id.trusted.plus/idp/sso/authorize?provider_id=88b3361b2f480ce2&auth_type
     ![external-provider](./images/external-provider.jpg "Настройки приватности")   
 
 
-##  Добавление созданного facebook провайдера в приложение
+##  Добавление созданного Facebook провайдера в приложение
    
 1.  Выберите раздел **Мои приложения** в личном кабинете.
    
       ![my-app-menu.png](./images/my-app-menu.png "Мои приложения")
 
-2. В списке приложений выберите приложение, в которое будет добавлена авторизация через facebook провайдер.
+2. В списке приложений выберите приложение, в которое будет добавлена авторизация через Facebook провайдер.
    
       ![view-new-app.png](./images/view-new-app.png "Список приложений")
 
@@ -100,7 +98,7 @@ https://id.trusted.plus/idp/sso/authorize?provider_id=88b3361b2f480ce2&auth_type
 
       ![flag-on.png](./images/flag-on.png "Включения флага авторизации через провайдеров внешних аккаунтов")
 
-7. Теперь авторизация в приложение доступна через провайдер facebook.
+7. Теперь авторизация в приложение доступна через провайдер Facebook.
      
       ![app-login-fb.png](./images/app-login-fb.png "Форма авторизации в приложение")
 
