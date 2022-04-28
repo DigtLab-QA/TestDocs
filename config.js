@@ -36,7 +36,7 @@ const config = {
     },
   },
   sidebar: {
-    forcedNavOrder: ['01-v1.2.026','02-v1.2.042','03-v1.3'],
+    forcedNavOrder: ['01-v1.2.026','02-v1.2.042','03-v1.3','04-v1.5'],
     collapsedNav: [],
     links: [{ text: 'Trusted.Plus', link: 'https://trusted.plus' }],
     frontline: false,
