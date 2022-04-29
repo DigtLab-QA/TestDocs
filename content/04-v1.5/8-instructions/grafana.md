@@ -23,23 +23,36 @@ sort: "11"
 
 Выставляем следующие значения для параметров, при необходимости, раскомментируя или добавляя их сами:
 
-`[auth.generic_oauth]`
-`enabled = true`
-`name = Trusted.TEST`
-`allow_sign_up = true`
-`client_id = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`
-`client_secret = xxxxxxxxxxx`
-`scopes = userprofile`
+[auth.generic_oauth]
 
-`empty_scopes = false`
-`email_attribute_name = email:email`
-`email_attribute_path = data.email`
-`login_attribute_path = data.login`
-`name_attribute_path = data.givenName`
+enabled = true
 
-`auth_url = https://test.trusted.plus/idp/sso/oauth`
-`token_url = https://test.trusted.plus/idp/sso/oauth/token`
-`api_url = https://test.trusted.plus/trustedapp/rest/user/profile/get`
+name = Trusted.TEST
+
+allow_sign_up = true
+
+client_id = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+client_secret = xxxxxxxxxxx
+
+scopes = userprofile
+
+empty_scopes = false
+
+email_attribute_name = email:email
+
+email_attribute_path = data.email
+
+login_attribute_path = data.login
+
+name_attribute_path = data.givenName
+
+auth_url = https://test.trusted.plus/idp/sso/oauth
+
+token_url = https://test.trusted.plus/idp/sso/oauth/token
+
+api_url = https://test.trusted.plus/trustedapp/rest/user/profile/get
+
 
 ![grafanainisettings.png](./images/grafanainisettings.png)
 
