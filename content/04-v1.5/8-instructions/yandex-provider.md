@@ -40,7 +40,7 @@ sort: "07"
     - user_authorization_uri — https://oauth.yandex.ru/authorize
     - access_token_uri — https://oauth.yandex.ru/token
     - user_info_uri — https://login.yandex.ru/info
-  Сохраните изменения.  
+  **Сохраните** изменения.  
     
     ![yandex-app2](./images/yandex-app2.jpg "Настройки авторизации провайдера")
  
@@ -59,7 +59,8 @@ sort: "07"
    
       ![view-new-app.png](./images/view-new-app.png "Список приложений")
 
-3. В открывшемся окне настроек приложения в разделе **Список провайдеров** нажмите кнопку добавления нового провайдера ![add-provider-btn-to-app](./images/add-provider-btn-to-app.png "Кнопка добавления провайдера"). 
+3. В открывшемся окне настроек приложения в разделе **Список провайдеров** нажмите кнопку добавления нового провайдера.
+    ![add-provider-btn-to-app](./images/add-provider-btn-to-app.png "Кнопка добавления провайдера")
    
       ![add-provider-btn](./images/list-providers.png "Список подключенных провайдеров") 
 

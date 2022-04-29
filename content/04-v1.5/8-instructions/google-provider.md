@@ -50,6 +50,7 @@ sort: "04"
 
 15. В поле **Разрешенные URI перенаправления** вставьте строку типа  
 https://domain.ru/idp/sso/authorize?provider_id=ddfc59194e5085a88b3361b2f480ce2&auth_type=OAUTH2,
+
       где provider_id — это значение поля ProviderId в настройках созданного провайдера OAuth2.0 на сервисе Trusted.  
       ![provider](./images/providerid.jpg "ProviderID")   
     
@@ -83,7 +84,8 @@ https://domain.ru/idp/sso/authorize?provider_id=ddfc59194e5085a88b3361b2f480ce2&
    
       ![view-new-app.png](./images/view-new-app.png "Список приложений")
 
-3. В открывшемся окне настроек приложения в разделе **Список провайдеров** нажмите кнопку добавления нового провайдера ![add-provider-btn-to-app](./images/add-provider-btn-to-app.png "Кнопка добавления провайдера"). 
+3. В открывшемся окне настроек приложения в разделе **Список провайдеров** нажмите кнопку добавления нового провайдера.
+    ![add-provider-btn-to-app](./images/add-provider-btn-to-app.png "Кнопка добавления провайдера")
    
       ![add-provider-btn](./images/list-providers.png "Список подключенных провайдеров") 
 
