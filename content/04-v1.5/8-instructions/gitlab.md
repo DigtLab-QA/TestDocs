@@ -30,48 +30,28 @@ sort: "10"
 
 Значение gitlab_rails['omniauth_providers'] должно выглядеть следующим образом:
 
-gitlab_rails['omniauth_providers'] = [
+gitlab_rails['omniauth_providers'] = [  
+  {  
+    'name' => 'oauth2_generic',  
+    'app_id' => '<clientid приложения созданного в Trusted.ID>’',  
+    'app_secret' => 'clientsecret приложения созданного в Trusted.ID',  
+    'args' => {  
+      client_options: {  
+        'site' => 'https://<домен сервиса Trusted.ID>/',  
+        'authorize_url' => '/idp/sso/oauth',  
+        'user_info_url' => '/trustedapp/rest/user/profile/get',  
+        'token_url' => '/idp/sso/oauth/token'  
+      },  
+      user_response_structure: {  
+        root_path: ['data'],  
+        attributes: { email:'email', first_name:'givenName', last_name:'familyName', name:'displayName', nickname:'login' },  
+      },  
+      scope: 'userprofile',  
+      'name' => 'НазваниеСервисаАвторизации>’  
+    }  
+  }  
+]  
 
-  {
-
-    'name' => 'oauth2_generic',
-
-    'app_id' => '<clientid приложения созданного в Trusted.ID>’',
-
-    'app_secret' => 'clientsecret приложения созданного в Trusted.ID',
-
-    'args' => {
-
-      client_options: {
-
-        'site' => 'https://<домен сервиса Trusted.ID>/',
-
-        'authorize_url' => '/idp/sso/oauth',
-
-        'user_info_url' => '/trustedapp/rest/user/profile/get',
-
-        'token_url' => '/idp/sso/oauth/token'
-
-      },
-
-      user_response_structure: {
-
-        root_path: ['data'],
-
-        attributes: { email:'email', first_name:'givenName', 
-        last_name:'familyName', name:'displayName', nickname:'login' }, 
-
-      },
-
-      scope: 'userprofile',
-
-      'name' => 'НазваниеСервисаАвторизации>’
-
-    }
-
-  }
-  
-]
 
 
 ![gitlabrbsettings.png](./images/gitlabrbsettings.png)
