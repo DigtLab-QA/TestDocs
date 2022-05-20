@@ -6,7 +6,7 @@ sort: "04"
 
 ## Настройка провайдера для авторизации через Google
 
-1. Зарегистрируйтесь и/или авторизуйтесь на сервисе, где развернута система Trusted Net (далее рассматривается сервис [TRUSTED.PLUS](https://id.trusted.plus)).  
+1. Зарегистрируйтесь и/или авторизуйтесь на сервисе, где развернута система Trusted.Net (далее рассматривается сервис [Trusted.ID](https://id.trusted.plus)).  
 2. Создайте провайдер типа OAuth2.0.  
 3. Зарегистрируйтесь/авторизуйтесь в [Google](https://accounts.google.com/signin/v2/identifier?hl=ru&passive=true&continue=https%3A%2F%2Fwww.google.ru%2F&ec=GAZAmgQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin).  
 4. Откройте страницу https://code.google.com/apis/console#access.    
@@ -60,7 +60,7 @@ https://domain.ru/idp/sso/authorize?provider_id=ddfc59194e5085a88b3361b2f480ce2&
     
     ![google-apps10](./images/google-apps10.jpg "Client ID, Client Secret")  
 
-17. Перейдите в настройки провайдера OAuth2.0 на сервисе Trusted.  
+17. Перейдите в настройки провайдера OAuth2.0 на сервисе.  
     
     ![google-prov1](./images/google-prov1.jpg "Настройки провайдера")  
 

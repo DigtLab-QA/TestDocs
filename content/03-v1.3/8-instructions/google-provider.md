@@ -6,7 +6,7 @@ sort: "04"
 
 ## Настройка провайдера для авторизации через Google
 
-1. Зарегистрируйтесь и/или авторизуйтесь на сервисе, где развернута система Trusted Net (далее рассматривается сервис [TRUSTED.PLUS](https://id.trusted.plus)).  
+1. Зарегистрируйтесь и/или авторизуйтесь на сервисе, где развернута система Trusted.Net (далее рассматривается сервис [Trusted.ID](https://id.trusted.plus)).  
 2. Создайте провайдер типа OAuth2.0.  
 3. Зарегистрируйтесь/авторизуйтесь в [Google](https://accounts.google.com/signin/v2/identifier?hl=ru&passive=true&continue=https%3A%2F%2Fwww.google.ru%2F&ec=GAZAmgQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin).  
 4. Откройте страницу https://code.google.com/apis/console#access.    
@@ -19,11 +19,11 @@ sort: "04"
    
    ![google-apps2](./images/google-apps2.jpg "Настройки проекта")  
 
-8. Откройте раздел **API и сервисы** - **Окно запроса доступа OAuth**.  
+8. Откройте раздел **API и сервисы** — **Окно запроса доступа OAuth**.  
    
    ![google-apps3](./images/google-apps3.jpg "Доступ к OAuth")  
 
-9.  Выберите **User Type** - "Внешний" и нажмите **Создать**  
+9.  Выберите **User Type** — "Внешний" и нажмите **Создать**  
     
     ![google-apps4](./images/google-apps4.jpg "Доступ к OAuth")  
 
@@ -35,8 +35,8 @@ sort: "04"
     
     ![google-apps6](./images/google-apps6.jpg "Доменное имя")  
 
-    Сохраните настройки.   
-12. Откройте раздел **API и сервисы** - **Учетные данные** в настройках проекта Google. 
+    **Сохраните** настройки.   
+12. Откройте раздел **API и сервисы** — **Учетные данные** в настройках проекта Google. 
     
     ![google-apps7](./images/google-apps7.jpg "Учетные данные")  
 
@@ -50,7 +50,7 @@ sort: "04"
 
 15. В поле **Разрешенные URI перенаправления** вставьте строку типа  
 https://domain.ru/idp/sso/authorize?provider_id=ddfc59194e5085a88b3361b2f480ce2&auth_type=OAUTH2,
-      где provider_id - это значение поля ProviderId в настройках созданного провайдера OAuth2.0 на сервисе Trusted.  
+      где provider_id — это значение поля ProviderId в настройках созданного провайдера OAuth2.0 на сервисе.  
       ![provider](./images/providerid.jpg "ProviderID")   
     
     Замените domain.ru на домен своего сайта.
@@ -59,7 +59,7 @@ https://domain.ru/idp/sso/authorize?provider_id=ddfc59194e5085a88b3361b2f480ce2&
     
     ![google-apps10](./images/google-apps10.jpg "Client ID, Client Secret")  
 
-17. Перейдите в настройки провайдера OAuth2.0 на сервисе Trusted.  
+17. Перейдите в настройки провайдера OAuth2.0 на сервисе.  
     
     ![google-prov1](./images/google-prov1.jpg "Настройки провайдера")  
 
@@ -83,15 +83,16 @@ https://domain.ru/idp/sso/authorize?provider_id=ddfc59194e5085a88b3361b2f480ce2&
    
       ![view-new-app.png](./images/view-new-app.png "Список приложений")
 
-3. В открывшемся окне настроек приложения в разделе **Список провайдеров** нажмите кнопку добавления нового провайдера ![add-provider-btn-to-app](./images/add-provider-btn-to-app.png "Кнопка добавления провайдера"). 
+3. В открывшемся окне настроек приложения в разделе **Список провайдеров** нажмите кнопку добавления нового провайдера.
+    ![add-provider-btn-to-app](./images/add-provider-btn-to-app.png "Кнопка добавления провайдера") 
    
       ![add-provider-btn](./images/list-providers.png "Список подключенных провайдеров") 
 
-4. Установить флаг напротив созданного провайдера в списке доступных провайдеров и нажмите кнопку **Сохранить**.
+4. Установите флаг напротив созданного провайдера в списке доступных провайдеров и нажмите кнопку **Сохранить**.
    
       ![select-google](./images/select-google.jpg "Список провайдеров") 
 
-5. Список провайдеров приложения обновиться и в нем отразится добавленный провайдер.
+5. Список провайдеров приложения обновится, и в нем отразится добавленный провайдер.
 
       ![add-ptovider-google](./images/add-ptovider-google.jpg "Список провайдеров")
 
