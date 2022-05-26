@@ -38,14 +38,14 @@ const config = {
   sidebar: {
     forcedNavOrder: ['01-v1.2.026','02-v1.2.042','03-v1.3','04-v1.5'],
     collapsedNav: [],
-    links: [{ text: 'Trusted.Plus', link: 'https://trusted.plus' }],
+    links: [{ text: 'Trusted.Net', link: 'https://trusted.plus' }],
     frontline: false,
     ignoreIndex: true,
     title:
-      "<a href='https://trusted.plus'>Trusted.Plus </a>",
+      "<a href='https://trusted.plus'>Trusted.Net </a>",
   },
   siteMetadata: {
-    title: 'GitDocs Trusted.Plus',
+    title: 'GitDocs Trusted.Net',
     description: 'Documentation built with mdx.',
     ogImage: null,
     docsLocation: '',
@@ -54,8 +54,8 @@ const config = {
   pwa: {
     enabled: false, // disabling this will also remove the existing service worker.
     manifest: {
-      name: 'GitDocs Trusted.Plus',
-      short_name: 'GitDocs Trusted.Plus',
+      name: 'GitDocs Trusted.Net',
+      short_name: 'GitDocs Trusted.Net',
       start_url: '/',
       background_color: '#6b37bf',
       theme_color: '#6b37bf',
