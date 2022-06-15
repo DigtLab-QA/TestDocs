@@ -28,11 +28,11 @@ const config = {
 		  </li>`,
     links: [{ text: '', link: '' }],
     search: {
-      enabled: true,
-      indexName: 'Trusted',
-      algoliaAppId: "YSUPZ6O4QF",
-      algoliaSearchKey: "a9c5865fedb6fa111eba7be1fffb6ac8",
-      algoliaAdminKey: "856f676628f9f739513bb0757591b2cc",
+      enabled: false,
+//       indexName: 'Trusted',
+//       algoliaAppId: "YSUPZ6O4QF",
+//       algoliaSearchKey: "a9c5865fedb6fa111eba7be1fffb6ac8",
+//       algoliaAdminKey: "856f676628f9f739513bb0757591b2cc",
     },
   },
   sidebar: {
